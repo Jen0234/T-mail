@@ -34,3 +34,16 @@ img {
     border-spacing: 0;
     font-family: sans-serif;
 }
+
+.two-columns{
+    text-align: center;
+    font-size: 0;
+}
+
+.two-columns .column{
+    width: 100%;
+    max-width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
