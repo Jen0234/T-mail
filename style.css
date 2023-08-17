@@ -1,14 +1,36 @@
-body{
+body {
     margin: 0;
     background-color: black;
+}
 
+table {
+    border-spacing: 0;
 }
-table{
-     border-spacing: 0;
+
+td {
+    padding: 0;
 }
-td{
-   padding: 0;
-}
-img{
+
+img {
     border: 0;
+}
+
+.title {
+    font-size: 65px;
+    color: white;
+}
+
+.wrapper{
+    width: 100%;
+    table-layout: fixed;
+    background-color: #cccccc;
+    padding-bottom: 60px;
+}
+
+.main {
+    background-color: #ffff;
+    margin: 0 auto;
+    max-width: 600px;
+    border-spacing: 0;
+    font-family: sans-serif;
 }
