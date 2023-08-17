@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+    background-color: black;
+
+}
+table{
+     border-spacing: 0;
+}
+td{
+   padding: 0;
+}
+img{
+    border: 0;
+}
