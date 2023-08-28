@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: black;
+    background-color: #cccccc;
 }
 
 table {
@@ -77,6 +77,11 @@ img {
 }
 .two-columns .padding{
     padding: 20px;
+}
+.last-td{
+    text-align:center; 
+    padding: 45px 20px;
+     color: white;
 }
 
 .two-columns .content{
