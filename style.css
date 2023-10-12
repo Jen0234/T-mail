@@ -25,6 +25,7 @@ img {
     table-layout: fixed;
     background-color: #cccccc;
     padding-bottom: 60px;
+    text-align: center;
 }
 
 .main {
@@ -33,6 +34,10 @@ img {
     max-width: 600px;
     border-spacing: 0;
     font-family: sans-serif;
+    width: 100%;
+}
+.main-td{
+    padding: 14px 0 4px;
 }
 
 .two-columns{
@@ -57,13 +62,15 @@ img {
 .three-columns .column{
     width: 100%;
     max-width: 200px;
-    display: inline-block;
-    vertical-align: top;
+    display: inline-block; 
     text-align: center;
+    vertical-align: middle;
+    justify-content:center;
 }
 
 .three-columns .padding {
     padding: 15px;
+    
 }
 
 .three-columns .content{
